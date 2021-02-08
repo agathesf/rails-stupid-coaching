@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Stupid coaching : answer</h1>
+
+  <div class="banner">
+    <h2> <%= params[:question].capitalize %> </h2>
+    <p>You</p>
+  </div>
+
+  <div class="banner">
+    <h2><%= @answer %></h2>
+    <p>Your coach</p>
+  </div>
+
+  <%= link_to "Ask a new question",  ask_path %>
+
+</div>
